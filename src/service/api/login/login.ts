@@ -2,9 +2,12 @@ import http from '@/service/http'
 import * as T from './types'
 
 const loginApi: T.ILoginApi = {
-    login(params){
-        return http.post('/login', params)
+    login(){
+        //return http.post('/login', params)
+        return http.get('http://jsonplaceholder.typicode.com/posts');
+    },
+    ass(){
+        return http.get('http://jsonplaceholder.typicode.com/posts');
     }
-
 }
 export default loginApi

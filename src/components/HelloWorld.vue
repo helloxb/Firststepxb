@@ -2,7 +2,7 @@
   <div>用户名:{{ mainStore.name }}<br />长度:{{ mainStore.nameLength }}</div>
   <hr/>
   <button @click="updateName">修改store中的name</button>
-  <n-button>naive-ui</n-button>
+  <n-button>nassssssui</n-button>
 </template>
 
 <script setup lang="ts">
