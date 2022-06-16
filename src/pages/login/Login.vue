@@ -36,9 +36,10 @@ interface ss {
  const aa = async () =>{
    console.log('111');
       await loginss.login().then((reee) =>{
-      data.value = reee;
-      console.log(data.value);
-      
+      if(reee){
+        data.value = reee;
+        console.log(data.value);
+      }
     }).catch((err)=>{console.log(err);
     })
    } 
